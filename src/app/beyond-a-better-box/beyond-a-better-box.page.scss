@@ -1,0 +1,54 @@
+
+h2 {
+  background-image: var(--section-header-image);
+  color: var(--section-theam);
+  background-repeat: no-repeat;
+  background-size: 1em;
+  font-size: 1em;
+  padding-left: 1.25em;
+}
+
+
+ion-card {
+  section.list-content {
+    ion-label {
+      background: var(--section-theam);
+      color: white;
+      padding: 0.5em;
+    }
+    div.text {
+      margin: 0.5em;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+  }
+}
+
+ion-card.next-generation {
+  --section-theam: #32AA3F;
+  --section-header-image: url("../../assets/next-generation.png");
+
+}
+
+ion-card.advanced-tools-and-technologies {
+  --section-theam: #2C73C2;
+  --section-header-image: url("../../assets/advanced-tools.png");
+}
+
+ion-card.process-optimization {
+  --section-theam: #5EC238;
+  --section-header-image: url("../../assets/process-optimization.png");
+}
+
+ion-card.harmonized-support {
+  --section-theam: #52C2F1;
+  --section-header-image: url("../../assets/harmonized-support.png");
+}
+
+section.beyond-care {
+  div.text {
+    margin: auto 10%;
+  }
+}
